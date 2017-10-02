@@ -4,8 +4,9 @@
   padding-top: 1.4em;
   display: flex;
   justify-content: space-between;
-  margin-right: 1em;
   background-color: #fefefd; }
+  .IndexHeader .fa-cog {
+    margin-left: 0.3em; }
   .IndexHeader nav {
     justify-content: flex-start; }
     .IndexHeader nav i {
