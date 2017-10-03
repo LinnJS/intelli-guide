@@ -7,6 +7,8 @@
   background-color: #fefefd; }
   .IndexHeader .fa-cog {
     margin-left: 0.3em; }
+  .IndexHeader .fa-arrow-left {
+    margin-left: 0.3em; }
   .IndexHeader nav {
     justify-content: flex-start; }
     .IndexHeader nav i {
