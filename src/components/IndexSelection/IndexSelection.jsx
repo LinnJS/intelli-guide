@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+import './IndexSelection.css'
+import IndexHeader from '../IndexHeader/IndexHeader'
 import daliFooter from './assets/daliFooter.svg'
 
 class IndexSelection extends Component {
   render() {
     return (
       <div className="IndexSelection">
+        <IndexHeader />
         <div className="wrapper">
           <section className="permanent">
             <div className="indexText">
@@ -32,7 +35,7 @@ class IndexSelection extends Component {
           </section>
         </div>
         <footer>
-          <img src={daliFooter} alt="" />
+          <img src={daliFooter} alt="Dali Footer Branding" />
         </footer>
       </div>
     )
