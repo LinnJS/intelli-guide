@@ -13,32 +13,23 @@ footer img {
   flex-wrap: wrap;
 }
 
-.indexText {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  align-content: flex-end;
-  justify-content: flex-end;
-  height: 100%;
-  color: #fefffe;
-  span {
-    font-size: 10px;
-    margin: 0;
-  }
-  h3 {
-    font-size: 12px;
-    margin: 0;
-  }
-}
-
 .permanent {
   background-image: url('./assets/toreador.png');
   background-size: cover;
+
+  .indexText {
+    background-image: url('./assets/itemFooterLeft.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    text-align: right;
+  }
 }
 
 .architecture {
   background-image: url('./assets/enigma.png');
   background-size: cover;
+  text-align: right;
 }
 
 .family {
@@ -48,5 +39,23 @@ footer img {
 
 .expedition {
   background-image: url('./assets/schiap.png');
-  background-size: cover;
+  background-size: contain;
+}
+
+.indexText {
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  color: #fefffe;
+
+  span {
+    font-size: 10px;
+    margin: 0;
+  }
+  h3 {
+    font-size: 12px;
+    margin: 0;
+  }
 }

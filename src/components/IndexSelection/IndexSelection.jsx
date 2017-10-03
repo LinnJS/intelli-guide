@@ -29,7 +29,7 @@ class IndexSelection extends Component {
           </section>
           <section className="family">
             <div className="indexText">
-              <span>explore imagination, crack the code</span>
+              <span>Dali Decoded, and Mustash Tour</span>
               <h3>family tours</h3>
             </div>
           </section>
