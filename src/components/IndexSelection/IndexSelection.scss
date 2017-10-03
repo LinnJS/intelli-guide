@@ -1,7 +1,15 @@
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+}
+
 section {
-  height: 12.25em;
+  height: 12em;
   width: 42%;
-  margin: 0.1em 0.5em;
+  margin: 0.75em 0.5em;
 }
 
 footer img {
@@ -11,6 +19,7 @@ footer img {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .permanent {
@@ -18,10 +27,10 @@ footer img {
   background-size: cover;
 
   .indexText {
-    background-image: url('./assets/itemFooterLeft.png');
+    background-image: url('./assets/itemFooterLeft.svg');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: 110%;
     text-align: right;
   }
 }
@@ -30,29 +39,53 @@ footer img {
   background-image: url('./assets/enigma.png');
   background-size: cover;
   text-align: right;
+
+  .indexText {
+    background-image: url('./assets/itemFooterLeft.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    text-align: right;
+  }
 }
 
 .family {
   background-image: url('./assets/decoded.jpg');
   background-size: cover;
+
+  .indexText {
+    background-image: url('./assets/itemFooterRight.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    text-align: right;
+  }
 }
 
 .expedition {
   background-image: url('./assets/schiap.png');
   background-size: contain;
+  background-repeat: no-repeat;
+
+  .indexText {
+    background-image: url('./assets/itemFooterRight.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    text-align: right;
+  }
 }
 
 .indexText {
   display: flex;
   flex-direction: column;
-  // align-items: flex-end;
   justify-content: flex-end;
   height: 100%;
   color: #fefffe;
 
   span {
     font-size: 10px;
-    margin: 0;
+    margin: 0 0.2em 0 0;
   }
   h3 {
     font-size: 12px;

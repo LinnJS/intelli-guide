@@ -1,37 +1,64 @@
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%; }
+
 section {
-  height: 12.25em;
+  height: 12em;
   width: 42%;
-  margin: 0.1em 0.5em; }
+  margin: 0.75em 0.5em; }
 
 footer img {
   width: 100%; }
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .permanent {
   background-image: url("./assets/toreador.png");
   background-size: cover; }
   .permanent .indexText {
-    background-image: url("./assets/itemFooterLeft.png");
+    background-image: url("./assets/itemFooterLeft.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: 110%;
     text-align: right; }
 
 .architecture {
   background-image: url("./assets/enigma.png");
   background-size: cover;
   text-align: right; }
+  .architecture .indexText {
+    background-image: url("./assets/itemFooterLeft.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    text-align: right; }
 
 .family {
   background-image: url("./assets/decoded.jpg");
   background-size: cover; }
+  .family .indexText {
+    background-image: url("./assets/itemFooterRight.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    text-align: right; }
 
 .expedition {
   background-image: url("./assets/schiap.png");
-  background-size: contain; }
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .expedition .indexText {
+    background-image: url("./assets/itemFooterRight.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    text-align: right; }
 
 .indexText {
   display: flex;
@@ -41,7 +68,7 @@ footer img {
   color: #fefffe; }
   .indexText span {
     font-size: 10px;
-    margin: 0; }
+    margin: 0 0.2em 0 0; }
   .indexText h3 {
     font-size: 12px;
     margin: 0; }

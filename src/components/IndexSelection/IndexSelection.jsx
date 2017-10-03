@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './IndexSelection.css'
+import styles from './IndexSelection.css'
 import IndexHeader from '../IndexHeader/IndexHeader'
 import daliFooter from './assets/daliFooter.svg'
 
@@ -29,7 +29,7 @@ class IndexSelection extends Component {
           </section>
           <section className="family">
             <div className="indexText">
-              <span>Dali Decoded, and Mustash Tour</span>
+              <span>decode the imagination</span>
               <h3>family tours</h3>
             </div>
           </section>
