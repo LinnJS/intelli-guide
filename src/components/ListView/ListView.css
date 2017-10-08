@@ -1,0 +1,72 @@
+.body {
+}
+
+footer p {
+  padding: 0 1em;
+  margin: 0;
+}
+
+/******************************/
+/******    Selection   ********/
+/******************************/
+
+.InternalHeader {
+  margin-bottom: 1em;
+}
+
+.selectionContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #D3D2D3;
+  height: 75vh;
+}
+
+.selectionOne {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: #404040;
+}
+
+/******************************/
+/******    Images      ********/
+/******************************/
+
+.daddyLongLegs {
+  width: 120px;
+  height: 80px;
+}
+
+/******************************/
+/******    Footer      ********/
+/******************************/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 1.5em 0;
+}
+
+.bottomNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 .5em;
+
+}
+
+/******************************/
+/******    Icons       ********/
+/******************************/
+
+.fa-list {
+  font-size: 30px;
+}
+
+.guideIcon {
+  width: 30px;
+  height: 30px;
+}
