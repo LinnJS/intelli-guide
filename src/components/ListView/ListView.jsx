@@ -3,7 +3,6 @@ import { Link, Route } from 'react-router-dom';
 
 import style from './ListView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
-import daliFooter from '../../assets/daliFooter.svg';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
 import guideIcon from '../../assets/guide.png';
 

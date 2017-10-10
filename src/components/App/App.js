@@ -3,8 +3,13 @@ import { BrowserRouter, Switch, Link, Route } from 'react-router-dom';
 
 import './App.css';
 import IndexSelection from '../IndexSelection/IndexSelection';
+<<<<<<< HEAD
 import ListView from '../ListView/ListView';
 import SelectionView from '../SelectionView/SelectionView';
+=======
+// import ListView from '../ListView/ListView';
+import SelectionView from '../SelectionView/SelectionView'
+>>>>>>> master
 
 class App extends Component {
   render() {
