@@ -12,10 +12,10 @@ class IndexSelection extends Component {
       <div className="IndexSelection">
         <Switch>
           {/* <Route exact path="/" component={IndexSelection} /> */}
-          <Route path="perminant/ListView" component={ListView} />
-          <Route path="expedition/ListView" component={ListView} />
-          <Route path="architecture/ListView" component={ListView} />
-          <Route path="family/ListView" component={ListView} />
+          <Route exact path="/perminant" component={ListView} />
+          <Route exact path="/expedition" component={ListView} />
+          <Route exact path="/architecture" component={ListView} />
+          <Route path="/family" component={ListView} />
         </Switch>
         <IndexHeader />
         <div className="wrapper">
