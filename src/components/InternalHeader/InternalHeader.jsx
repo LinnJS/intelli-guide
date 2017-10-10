@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import '../IndexHeader/IndexHeader.css'
+import React, { Component } from 'react';
+import { Switch, Link, Route } from 'react-router-dom';
+
+import '../IndexHeader/IndexHeader.css';
 // import head from './daliHead.svg'
 
 class IndexHeader extends Component {
@@ -14,8 +16,8 @@ class IndexHeader extends Component {
           <i className="fa fa-search fa-lg" aria-hidden="true" />
         </nav>
       </div>
-    )
+    );
   }
 }
 
-export default IndexHeader
+export default IndexHeader;
