@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link, Route } from 'react-router-dom';
+
 import style from './ListView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daliFooter from '../../assets/daliFooter.svg';
@@ -8,14 +10,16 @@ import guideIcon from '../../assets/guide.png';
 class ListView extends Component {
   render() {
     return (
-      <div className="body">
+      <div className="ListView">
         <div className="InternalHeader">
           <InternalHeader />
         </div>
         <div className="selectionContainer">
-          <div className="selectionOne">
-            <img src={daddyLongLegs} class="daddyLongLegs" alt="Dali Daddy Long Lets" />
-          </div>
+          <Link to="/id">
+            <div className="selection">
+              <img src={daddyLongLegs} class="daddyLongLegs" alt="Dali Daddy Long Lets" />
+            </div>
+          </Link>
         </div>
         <footer>
           <div className="bottomNav">

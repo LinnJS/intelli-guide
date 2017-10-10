@@ -1,12 +1,9 @@
-import React, {Component} from 'react'
-import styles from '../index.css'
+import React, { Component } from 'react';
 
 class SelectionView extends Component {
   render() {
-    return(
-
-    )
+    return <div className="SelectionView">...</div>;
   }
 }
 
-export default SelectionView
+export default SelectionView;
