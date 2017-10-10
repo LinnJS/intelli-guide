@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Link } from 'react-router-dom';
+import { Switch, Link, Route } from 'react-router-dom';
 
 import styles from './IndexSelection.css';
 import IndexHeader from '../IndexHeader/IndexHeader';
@@ -10,10 +10,17 @@ class IndexSelection extends Component {
   render() {
     return (
       <div className="IndexSelection">
+        <Switch>
+          {/* <Route exact path="/" component={IndexSelection} /> */}
+          <Route path="perminant/ListView" component={ListView} />
+          <Route path="expedition/ListView" component={ListView} />
+          <Route path="architecture/ListView" component={ListView} />
+          <Route path="family/ListView" component={ListView} />
+        </Switch>
         <IndexHeader />
         <div className="wrapper">
           <section className="permanent">
-            <Link to="ListView">
+            <Link to="perminant/ListView">
               <div className="indexText">
                 <span>permanent collection tour</span>
                 <h3>the works of dali</h3>
@@ -21,7 +28,7 @@ class IndexSelection extends Component {
             </Link>
           </section>
           <section className="expedition">
-            <Link to="ListView">
+            <Link to="expedition/ListView">
               <div className="indexText">
                 <span>expedition tour</span>
                 <h3>expedition tour</h3>
@@ -29,7 +36,7 @@ class IndexSelection extends Component {
             </Link>
           </section>
           <section className="architecture">
-            <Link to="ListView">
+            <Link to="architecture/ListView">
               <div className="indexText">
                 <span>understanding the enigma</span>
                 <h3>architecture tour</h3>
@@ -37,7 +44,7 @@ class IndexSelection extends Component {
             </Link>
           </section>
           <section className="family">
-            <Link to="ListView">
+            <Link to="family/ListView">
               <div className="indexText">
                 <span>decode the imagination</span>
                 <h3>family tours</h3>
