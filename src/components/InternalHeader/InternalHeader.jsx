@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Switch, Link, Route } from 'react-router-dom';
+
 import '../IndexHeader/IndexHeader.css';
 // import head from './daliHead.svg'
 

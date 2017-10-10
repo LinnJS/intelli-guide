@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Link, Route } from 'react-router-dom';
 
 import './App.css';
 import IndexSelection from '../IndexSelection/IndexSelection';
@@ -10,8 +10,13 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <IndexSelection />
-          {/* <ListView /> */}
+          <Switch>
+            <Route exact path="/" component={IndexSelection} />
+            <Route exact path="/perminant" component={ListView} />
+            <Route exact path="/expedition" component={ListView} />
+            <Route exact path="/architecture" component={ListView} />
+            <Route path="/family" component={ListView} />
+          </Switch>
         </div>
       </BrowserRouter>
     );
