@@ -1,0 +1,36 @@
+p {
+  color: #4d4d4d;
+  font-size: 16px;
+}
+
+.InternalHeader {
+  margin-bottom: 1em;
+}
+
+.guideSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: .2em .8em;
+  background-color: #EEEEEF;
+}
+
+.audioPlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #F9F9FA;
+  border: 1px solid #4d4d4d;
+  border-radius: 5px;
+  padding: .5em .5em;
+  margin: 1em;
+}
+
+.fa-arrow-down {
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.fa-play {
+  color: #4d4d4d;
+}
