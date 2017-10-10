@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styles from './IndexSelection.css'
 import IndexHeader from '../IndexHeader/IndexHeader'
-import daliFooter from './assets/daliFooter.svg'
+import daliFooter from '../../assets/daliFooter.svg'
 
 class IndexSelection extends Component {
   render() {
