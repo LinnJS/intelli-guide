@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import styles from './IndexSelection.css';
 import IndexHeader from '../IndexHeader/IndexHeader';
 import daliFooter from '../../assets/daliFooter.svg';
-import ListView from '../ListView/ListView';
+import '../ListView/ListView';
 
 class IndexSelection extends Component {
   render() {

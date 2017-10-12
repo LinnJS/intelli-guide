@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import '../IndexHeader/IndexHeader.css';
 // import head from './daliHead.svg'
@@ -9,7 +9,7 @@ class IndexHeader extends Component {
     return (
       <div className="IndexHeader">
         <Link to="/">
-          <i class="fa fa-arrow-left fa-lg" aria-hidden="true" />
+          <i className="fa fa-arrow-left fa-lg" aria-hidden="true" />
         </Link>
         <nav>
           <i className="fa fa-language fa-lg " aria-hidden="true" />

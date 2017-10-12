@@ -16,13 +16,13 @@ class SelectionView extends Component {
         </div>
         <div className="guideSection">
           <div className="audioPlay">
-            <i class="fa fa-play" aria-hidden="true" />
+            <i className="fa fa-play" aria-hidden="true" />
           </div>
           <p>
             Daddy Longlegs of the Evening - Hope! (Araignée du soir, espoir) - 1940. (Including: soft aeroplane, vomited
             by a cannon, ants, victory born of a broken wing, violoncello in white mastic, and an angel who weeps).
           </p>
-          <i class="fa fa-arrow-down" aria-hidden="true" />
+          <i className="fa fa-arrow-down" aria-hidden="true" />
         </div>
         <footer />
       </div>

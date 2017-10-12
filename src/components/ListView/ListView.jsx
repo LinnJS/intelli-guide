@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import style from './ListView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
@@ -16,17 +16,17 @@ class ListView extends Component {
         <div className="selectionContainer">
           <Link to="/id">
             <div className="selection">
-              <img src={daddyLongLegs} class="daddyLongLegs" alt="Dali Daddy Long Lets" />
+              <img className="daddyLongLegs" src={daddyLongLegs} alt="Dali Daddy Long Lets" />
             </div>
           </Link>
         </div>
         <footer>
           <div className="bottomNav">
-            <i class="fa fa-list" aria-hidden="true" />
+            <i className="fa fa-list" aria-hidden="true" />
             <p>List</p>
           </div>
           <div className="bottomNav">
-            <img src={guideIcon} class="guideIcon" alt="Nav guide icon" />
+            <img className="guideIcon" src={guideIcon} alt="Nav guide icon" />
             <p>Guided</p>
           </div>
         </footer>
