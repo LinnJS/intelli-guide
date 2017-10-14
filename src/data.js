@@ -1,4 +1,4 @@
-const perminant = {
+const permanent = {
   [
     {
       url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.6_thumbnail.jpg',

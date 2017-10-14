@@ -25,9 +25,9 @@ const database = firebase.database();
 database
   .ref()
   .set({
-    Copyright:
+    copyright:
       'Worldwide rights ©Salvador Dalí. Fundació Gala-Salvador Dalí (Artists Rights Society), 2017 / In the USA ©Salvador Dalí Museum, Inc. St. Petersburg, FL 2017.',
-    perminant: [
+    permanent: [
       {
         title: 'View of Cadaqués with Shadow of Mount Pani',
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1980.7_thumbnail.jpg',
