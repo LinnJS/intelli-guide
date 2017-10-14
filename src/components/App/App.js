@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+=======
+import { BrowserRouter, Switch, Link, Route } from 'react-router-dom';
+import '../../base.js';
+>>>>>>> justin
 
 import './App.css';
 import IndexSelection from '../IndexSelection/IndexSelection';

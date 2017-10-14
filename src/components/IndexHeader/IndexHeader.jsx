@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import { slide as Menu } from 'react-burger-menu';
 
+=======
+>>>>>>> justin
 import './IndexHeader.css';
 // import head from './daliHead.svg'
 

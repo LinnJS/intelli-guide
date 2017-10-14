@@ -2,7 +2,54 @@
 # yarn lockfile v1
 
 
+<<<<<<< HEAD
 "@firebase/webchannel-wrapper@^0.2.1":
+=======
+"@firebase/app@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.1.0.tgz#b18e6dbb218f65dd97f042b3c958d6484aacc449"
+  dependencies:
+    "@firebase/util" "^0.1.0"
+
+"@firebase/auth@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.1.0.tgz#f264502cbf48f89e517b6dba8ab24e6c2c1c5c52"
+
+"@firebase/database@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/database/-/database-0.1.0.tgz#77cedb607585b138bcd7db80ac01a6d9ac0a6002"
+  dependencies:
+    "@firebase/util" "^0.1.0"
+    faye-websocket "0.9.3"
+
+"@firebase/firestore@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.1.0.tgz#6e42655708b8a528f89461d56154c2a124bc06b6"
+  dependencies:
+    "@firebase/webchannel-wrapper" "^0.2.2"
+
+"@firebase/messaging@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.1.0.tgz#d43acaf1ff8588d25fa8afab13204951f88a3b48"
+  dependencies:
+    "@firebase/util" "^0.1.0"
+
+"@firebase/polyfill@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/polyfill/-/polyfill-0.1.0.tgz#1c38e809f64eb7e73d1d2c26441da3260f31171f"
+  dependencies:
+    promise-polyfill "^6.0.2"
+
+"@firebase/storage@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/storage/-/storage-0.1.0.tgz#257750c984aad433531f4e65744227407fed960e"
+
+"@firebase/util@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@firebase/util/-/util-0.1.0.tgz#c67d92f7d1b3365bfd31e0795dbbffdaf6457dc3"
+
+"@firebase/webchannel-wrapper@^0.2.2":
+>>>>>>> justin
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.2.tgz#5fb89db77b63ef59378599913d38e28cc4291290"
 
@@ -2715,6 +2762,7 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
+<<<<<<< HEAD
 firebase@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-4.5.0.tgz#e0973a9803b74c4c9d73d19f874712e6e9d16ba7"
@@ -2724,6 +2772,20 @@ firebase@^4.5.0:
     faye-websocket "0.9.3"
     jsonwebtoken "^7.3.0"
     promise-polyfill "^6.0.2"
+=======
+firebase@^4.0.0, firebase@^4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-4.5.1.tgz#882365d350c9bbbe3fe0731343776963cedefd9d"
+  dependencies:
+    "@firebase/app" "0.1.0"
+    "@firebase/auth" "0.1.0"
+    "@firebase/database" "0.1.0"
+    "@firebase/firestore" "0.1.0"
+    "@firebase/messaging" "0.1.0"
+    "@firebase/polyfill" "0.1.0"
+    "@firebase/storage" "0.1.0"
+    dom-storage "^2.0.2"
+>>>>>>> justin
     xmlhttprequest "^1.8.0"
 
 flat-cache@^1.2.1:
@@ -5439,6 +5501,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+<<<<<<< HEAD
 react-burger-menu@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.1.9.tgz#f323d371ed4cdfbede59ddb1b0fafc7437e9cc76"
@@ -5448,6 +5511,13 @@ react-burger-menu@^2.1.9:
     eve "~0.5.1"
     prop-types "^15.5.8"
     snapsvg-cjs "0.0.6"
+=======
+re-base@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/re-base/-/re-base-3.0.5.tgz#a6daf8d55c8ebf589cff0bfa595255b941233aef"
+  dependencies:
+    firebase "^4.0.0"
+>>>>>>> justin
 
 react-dev-utils@^4.1.0:
   version "4.1.0"
