@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './IndexHeader.css'
+import React, { Component } from 'react';
+import './IndexHeader.css';
 // import head from './daliHead.svg'
 
 class IndexHeader extends Component {
@@ -14,8 +14,8 @@ class IndexHeader extends Component {
           <i className="fa fa-search fa-lg" aria-hidden="true" />
         </nav>
       </div>
-    )
+    );
   }
 }
 
-export default IndexHeader
+export default IndexHeader;
