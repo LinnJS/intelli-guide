@@ -1,5 +1,6 @@
 .IndexHeader {
   background-image: url('./daliHead.svg');
+  width: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 1.4em;
@@ -9,6 +10,7 @@
 }
 .IndexHeader .fa-cog {
   margin-left: 0.3em;
+  color: #4d4d4d;
 }
 .IndexHeader .fa-arrow-left {
   margin-left: 0.3em;
@@ -18,14 +20,18 @@
 }
 .IndexHeader nav i {
   margin-right: 0.3em;
+  color: #4d4d4d;
 }
 
-@media only screen and (min-device-width: 768px) {
+@media (min-width: 520px) {
   .IndexHeader {
-    padding: 0;
+    padding: 1em 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  i {
-    color: blue;
+  .IndexHeader nav i,
+  .fa-cog {
+    margin-top: 2em;
   }
 }

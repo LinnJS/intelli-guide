@@ -10,7 +10,7 @@ import { database } from '../../base';
 
 class ListView extends Component {
   state = {
-    items: [],
+    items: []
   };
 
   componentDidMount() {
@@ -19,7 +19,7 @@ class ListView extends Component {
       .once('value')
       .then(data => {
         this.setState({
-          items: data.val(),
+          items: data.val()
         });
       });
   }

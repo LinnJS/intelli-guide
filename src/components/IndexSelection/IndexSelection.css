@@ -1,7 +1,7 @@
 .IndexSelection {
   overflow: hidden;
   height: 100vh;
-  position: 'fixed';
+  /*position: fixed;*/
 }
 
 section {
@@ -12,12 +12,16 @@ section {
 
 footer img {
   width: 103%;
+  height: 100%;
+  position: relative;
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 86vh;
 }
 
 .permanent {
@@ -29,6 +33,7 @@ footer img {
   background-image: url('../../assets/itemFooterLeft.svg');
   background-repeat: no-repeat;
   background-position: bottom;
+  /*max-height: 70px;*/
   background-size: 110%;
   text-align: right;
 }
@@ -83,11 +88,28 @@ footer img {
 }
 
 .indexText span {
+  font-family: 'Signika', san-serif;
   font-size: 10px;
   margin: 0 0.2em 0 0;
+  padding: 0 1em;
+  text-decoration: none;
 }
 
 .indexText h3 {
+  font-family: 'Signika', san-serif;
   font-size: 12px;
   margin: 0;
+  padding: 0 1em 0.5em 0;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .indexText span {
+    font-size: 16px;
+    margin: 0;
+  }
+  .indexText h3 {
+    font-size: 20px;
+    margin: 0;
+  }
 }
