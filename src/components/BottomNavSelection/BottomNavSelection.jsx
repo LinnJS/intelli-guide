@@ -7,11 +7,11 @@ class BottomNavSelection extends Component {
     return (
       <div className="footer">
         <div className="bottomNav">
-          <i class="fa fa-picture-o" aria-hidden="true" />
+          <i className="fa fa-picture-o" aria-hidden="true" />
           <p>Gallery</p>
         </div>
         <div className="bottomNav">
-          <i class="fa fa-university" aria-hidden="true" />
+          <i className="fa fa-university" aria-hidden="true" />
           <p>History</p>
         </div>
       </div>

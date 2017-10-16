@@ -8,10 +8,8 @@ import BottomNavSelection from '../BottomNavSelection/BottomNavSelection';
 class SelectionView extends Component {
   render() {
     return (
-      <div className="body">
-        <div className="InternalHeader">
-          <InternalHeader />
-        </div>
+      <div className="SelectionView">
+        <InternalHeader />
         <div className="paintingSelection" />
         <div className="guideSection">
           <div className="audioPlay">
@@ -23,9 +21,7 @@ class SelectionView extends Component {
           </p>
           <i className="fa fa-arrow-down" aria-hidden="true" />
         </div>
-        <footer>
-          <BottomNavSelection />
-        </footer>
+        <BottomNavSelection />
       </div>
     );
   }

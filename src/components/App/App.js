@@ -5,7 +5,6 @@ import './App.css';
 import IndexSelection from '../IndexSelection/IndexSelection';
 import ListView from '../ListView/ListView';
 import SelectionView from '../SelectionView/SelectionView';
-import { database } from '../../base';
 
 class App extends Component {
   render() {

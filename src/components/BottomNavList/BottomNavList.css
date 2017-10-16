@@ -1,29 +1,27 @@
-p {
-  padding: 0 1em;
-  margin: 0;
-  color: #4d4d4d;
-}
-
-.footer {
+.BottomNavList {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background-color: #f6f6f6;
   height: 72px;
+  position: fixed;
+  width: 100%;
 }
 
-.bottomNav {
+.icon {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 0 0.5em;
+  padding-bottom: 1em;
 }
 
-/******************************/
-/******    Icons       ********/
-/******************************/
+.icon > p {
+  padding: 0 1em;
+  margin: 0;
+  color: #4d4d4d;
+}
 
 .fa-list {
   font-size: 30px;
