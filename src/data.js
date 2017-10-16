@@ -15,7 +15,7 @@ const permanent = {
  An anguished head occupies the center,
       but here it has become a soft structure infused with sunset colors.The head is metamorphosed into an elastic female figure whose breasts are mimicked by two inkwells(erotic symbols in Dalí’s iconography)which suggest the signing of treaties(and Dalí’s father’s role as a notary).Ants eat away at the figure’s mouth as they do in countless other paintings,
         indicating the insidious destruction swallowing Europe.The viscous cello and bow suggest that all of Europe’s highest precepts were helpless to prevent the destruction of culture at the hands of a fascist regime.The painting’s title refers to an old French peasant legend : a spider seen in the evening is a symbol of good luck.',
- exhibitionHistory : [
+ exhibitionHistory: [
           '1941, Chicago, The Arts Club of Chicago, “Salvador Dali”',
           '1941, New York, Julien Levy Gallery, “Salvador Dalí”',
           '1941, Los Angeles, Dalzell Hatfield Galleries, “Salvador Dalí”',
