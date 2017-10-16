@@ -7,6 +7,15 @@ import daliFooter from '../../assets/daliFooter.svg';
 import '../ListView/ListView';
 
 class IndexSelection extends Component {
+  componentDidMount() {
+    fetch('https://intelli-guide.firebaseio.com/')
+      .then(data => {
+        console.log('Fething data: ', data);
+      })
+      .catch(error => {
+        console.log('Fetch failed:', error);
+      });
+  }
   render() {
     return (
       <div className="IndexSelection">

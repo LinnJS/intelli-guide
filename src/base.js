@@ -19,8 +19,16 @@ const config = {
   messagingSenderId: '846727200470',
 };
 
-const app = firebase.initializeApp(config);
+firebase.initializeApp(config);
 const database = firebase.database();
+
+const fetchPermanent = () => {
+  database.ref('permanent').on('value', snapshot => {
+    console.log(snapshot.key, snapshot.val());
+  });
+};
+
+// fetchPermanent();
 
 database
   .ref()
