@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Link, Route, BrowserHistory } from 'react-router-dom';
-import '../../base.js';
 
 import './App.css';
 import IndexSelection from '../IndexSelection/IndexSelection';
 import ListView from '../ListView/ListView';
 import SelectionView from '../SelectionView/SelectionView';
+import { database } from '../../base';
 
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
             <Route exact path="/expedition" component={ListView} />
             <Route exact path="/architecture" component={ListView} />
             <Route path="/family" component={ListView} />
-            <Route path="/item/ :path" component={SelectionView} />
+            <Route path="/item/:path" component={SelectionView} />
           </Switch>
         </div>
       </BrowserRouter>
