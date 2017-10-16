@@ -30,14 +30,13 @@ class SelectionView extends Component {
       return (
         <div className="SelectionView">
           <InternalHeader />
-          <div className="paintingSelection" />
+          <img src={this.state.item.url} alt="" />
           <div className="guideSection">
+            <h3>{this.state.item.title}</h3>
             <div className="audioPlay">
               <ReactAudioPlayer src="my_audio_file.ogg" controls />
             </div>
-            <h2>{this.state.item.title}</h2>
             {this.state.item.description.map((p, i) => <p key={i}>{p}</p>)}
-            <i className="fa fa-arrow-down" aria-hidden="true" />
           </div>
           <BottomNavSelection />
         </div>
