@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './BottomNavList.css';
+import './BottomNavList.css';
 import guideIcon from '../../assets/guide.png';
 
 class BottomNavList extends Component {
@@ -7,7 +7,7 @@ class BottomNavList extends Component {
     return (
       <div className="BottomNavList">
         <div className="icon">
-          <i className="fa fa-list" aria-hidden="true" />
+          <i className="fa fa-list " aria-hidden="true" />
           <p>List</p>
         </div>
         <div className="icon">
