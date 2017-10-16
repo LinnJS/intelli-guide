@@ -28,6 +28,12 @@ footer p {
   height: 5em;
 }
 
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+
 .item {
   width: 120px;
   height: 80px;

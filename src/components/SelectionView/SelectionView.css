@@ -30,6 +30,8 @@ p {
   justify-content: center;
   background-color: #f9f9fa;
   border-radius: 5px;
+  border: 0.1em gray solid;
+  height: 2em;
 }
 
 .fa-arrow-down {

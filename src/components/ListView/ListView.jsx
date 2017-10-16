@@ -10,7 +10,7 @@ import { database } from '../../base';
 
 class ListView extends Component {
   state = {
-    items: []
+    items: [],
   };
 
   componentDidMount() {
@@ -19,7 +19,7 @@ class ListView extends Component {
       .once('value')
       .then(data => {
         this.setState({
-          items: data.val()
+          items: data.val(),
         });
       });
   }
@@ -30,8 +30,10 @@ class ListView extends Component {
         <Link to={`/item${this.props.match.path}/${i}`} key={i}>
           <div className="selection">
             <img className="item" src={item.url} alt="Item image" />
-            <span>{item.title}</span>
-            <span>{item.accessionIDNumber}</span>
+            <div className="details">
+              <span>{item.title}</span>
+              <span>{item.accessionIDNumber}</span>
+            </div>
           </div>
         </Link>
       );
