@@ -14,11 +14,11 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route exact path="/" component={IndexSelection} />
-            <Route exact path="/perminant" component={ListView} />
+            <Route exact path="/permanent" component={ListView} />
             <Route exact path="/expedition" component={ListView} />
             <Route exact path="/architecture" component={ListView} />
             <Route path="/family" component={ListView} />
-            <Route path="/id" component={SelectionView} />
+            <Route path="/item/ :path" component={SelectionView} />
           </Switch>
         </div>
       </BrowserRouter>

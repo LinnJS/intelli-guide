@@ -7,22 +7,13 @@ import daliFooter from '../../assets/daliFooter.svg';
 import '../ListView/ListView';
 
 class IndexSelection extends Component {
-  componentDidMount() {
-    fetch('https://intelli-guide.firebaseio.com/')
-      .then(data => {
-        console.log('Fething data: ', data);
-      })
-      .catch(error => {
-        console.log('Fetch failed:', error);
-      });
-  }
   render() {
     return (
       <div className="IndexSelection">
         <IndexHeader />
         <div className="wrapper">
           <section className="permanent">
-            <Link to="/perminant">
+            <Link to="/permanent">
               <div className="indexText">
                 <span>permanent collection tour</span>
                 <h3>the works of dali</h3>

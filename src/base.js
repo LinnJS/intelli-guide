@@ -20,9 +20,8 @@ const config = {
 };
 
 firebase.initializeApp(config);
-const database = firebase.database();
-
-const fetchPermanent = () => {
+export const database = firebase.database();
+export const fetchPermanent = () => {
   database.ref('permanent').on('value', snapshot => {
     console.log(snapshot.key, snapshot.val());
   });
@@ -570,7 +569,8 @@ database
         ],
       },
       {
-        url: 'http://archive.thedali.org',
+        url:
+          'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2007.29_Weaning_web.jpg',
         title: 'The Weaning of Furniture-Nutrition',
         maker: 'Salvador Dalí',
         dateMade: '1934',
