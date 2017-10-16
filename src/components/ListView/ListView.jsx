@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import style from './ListView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
-import guideIcon from '../../assets/guide.png';
+import BottomNav from '../BottomNavList/BottomNavList';
 
 class ListView extends Component {
   render() {
@@ -16,19 +16,16 @@ class ListView extends Component {
         <div className="selectionContainer">
           <Link to="/id">
             <div className="selection">
-              <img className="daddyLongLegs" src={daddyLongLegs} alt="Dali Daddy Long Lets" />
+              <img
+                className="daddyLongLegs"
+                src={daddyLongLegs}
+                alt="Dali Daddy Long Lets"
+              />
             </div>
           </Link>
         </div>
         <footer>
-          <div className="bottomNav">
-            <i className="fa fa-list" aria-hidden="true" />
-            <p>List</p>
-          </div>
-          <div className="bottomNav">
-            <img className="guideIcon" src={guideIcon} alt="Nav guide icon" />
-            <p>Guided</p>
-          </div>
+          <BottomNav />
         </footer>
       </div>
     );

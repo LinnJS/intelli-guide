@@ -1,12 +1,6 @@
 .body {
 }
 
-footer p {
-  padding: 0 1em;
-  margin: 0;
-  color: #4d4d4d;
-}
-
 /******************************/
 /******    Selection   ********/
 /******************************/
@@ -36,39 +30,4 @@ footer p {
 .daddyLongLegs {
   width: 120px;
   height: 80px;
-}
-
-/******************************/
-/******    Footer      ********/
-/******************************/
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #f6f6f6;
-  height: 72px;
-}
-
-.bottomNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 0.5em;
-}
-
-/******************************/
-/******    Icons       ********/
-/******************************/
-
-.fa-list {
-  font-size: 30px;
-  color: #4d4d4d;
-}
-
-.guideIcon {
-  width: 30px;
-  height: 30px;
 }

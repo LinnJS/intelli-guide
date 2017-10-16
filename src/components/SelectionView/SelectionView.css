@@ -13,6 +13,7 @@ p {
   justify-content: space-around;
   padding: 0.4em 1em;
   background-color: #eeeeef;
+  height: 35vh;
 }
 
 .paintingSelection {

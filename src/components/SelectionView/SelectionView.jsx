@@ -3,6 +3,7 @@ import styles from './SelectionView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
 import ReactAudioPlayer from 'react-audio-player';
+import BottomNavSelection from '../BottomNavSelection/BottomNavSelection';
 
 class SelectionView extends Component {
   render() {
@@ -25,14 +26,7 @@ class SelectionView extends Component {
           <i className="fa fa-arrow-down" aria-hidden="true" />
         </div>
         <footer>
-          <div className="bottomNav">
-            <i class="fa fa-picture-o" aria-hidden="true" />
-            <p>Gallery</p>
-          </div>
-          <div className="bottomNav">
-            <i class="fa fa-university" aria-hidden="true" />
-            <p>History</p>
-          </div>
+          <BottomNavSelection />
         </footer>
       </div>
     );
