@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import style from './ListView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
-import BottomNav from '../BottomNavList/BottomNavList';
+import BottomNavList from '../BottomNavList/BottomNavList';
 
 import { database } from '../../base';
 
@@ -29,20 +29,18 @@ class ListView extends Component {
       return (
         <Link to={`/item${this.props.match.path}/${i}`} key={i}>
           <div className="selection">
-            <img className="daddyLongLegs" src={item.url} alt="Item image" />
+            <img className="item" src={item.url} alt="Item image" />
+            <span>{item.title}</span>
+            <span>{item.accessionIDNumber}</span>
           </div>
         </Link>
       );
     });
     return (
       <div className="ListView">
-        <div className="InternalHeader">
-          <InternalHeader />
-        </div>
+        <InternalHeader />
         <div className="selectionContainer">{items}</div>
-        <footer>
-          <BottomNav />
-        </footer>
+        <BottomNavList />
       </div>
     );
   }

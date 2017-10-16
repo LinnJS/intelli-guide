@@ -66,7 +66,7 @@ database
         placeMade: 'Unied States',
         materials: 'Oil on burlap',
         dimensions: '10 in x 20 in',
-        accessionIdNumber: 2000.6,
+        accessionIDNumber: 2000.6,
         creditLine: 'Gift of A. Reynolds & Eleanor Morse',
         onView: true,
         history: [
@@ -172,8 +172,8 @@ database
         dateMade: '1923',
         placeMade: 'Spain',
         materials: 'Oil on Canvas',
-        dimensions: '1983.3',
-        accessionIDNumber: '50 1/4 in x 38 3/4 in x 2 1/2 in',
+        dimensions: '50 1/4 in x 38 3/4 in x 2 1/2 in',
+        accessionIDNumber: '1983.3',
         creditLine: 'Gift of A. Reynolds & Eleanor Morse',
         onView: true,
         description: [
