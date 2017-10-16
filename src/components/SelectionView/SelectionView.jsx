@@ -5,24 +5,46 @@ import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
 import ReactAudioPlayer from 'react-audio-player';
 import BottomNavSelection from '../BottomNavSelection/BottomNavSelection';
 
+import { database } from '../../base';
+
 class SelectionView extends Component {
+  state = {
+    item: null,
+  };
+
+  componentDidMount() {
+    const path = this.props.location.pathname.replace('/item', '');
+    console.log(path);
+    database
+      .ref(path)
+      .once('value')
+      .then(data => {
+        this.setState({
+          item: data.val(),
+        });
+      });
+  }
+
   render() {
-    return (
-      <div className="SelectionView">
-        <InternalHeader />
-        <div className="paintingSelection" />
-        <div className="guideSection">
-          <div className="audioPlay">
-            <ReactAudioPlayer src="my_audio_file.ogg" controls />
+    if (this.state.item) {
+      return (
+        <div className="SelectionView">
+          <InternalHeader />
+          <div className="paintingSelection" />
+          <div className="guideSection">
+            <div className="audioPlay">
+              <ReactAudioPlayer src="my_audio_file.ogg" controls />
+            </div>
+            <h2>{this.state.item.title}</h2>
+            {this.state.item.description.map((p, i) => <p key={i}>{p}</p>)}
+            <i className="fa fa-arrow-down" aria-hidden="true" />
           </div>
-          <p>
-            Daddy Longlegs of the Evening - Hope! (Araignée du soir, espoir) - 1940. (Including: soft aeroplane, vomited
-          </p>
-          <i className="fa fa-arrow-down" aria-hidden="true" />
+          <BottomNavSelection />
         </div>
-        <BottomNavSelection />
-      </div>
-    );
+      );
+    } else {
+      return <p>Loading!</p>;
+    }
   }
 }
 
