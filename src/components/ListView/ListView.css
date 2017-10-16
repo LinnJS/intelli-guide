@@ -9,6 +9,8 @@ footer p {
   flex-direction: column;
   background-color: #d3d2d3;
   height: 80vh;
+  padding: 3em 0;
+  border-bottom: 1em solid white;
 }
 
 .selection {
