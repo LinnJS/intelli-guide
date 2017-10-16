@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styles from './SelectionView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
+import ReactAudioPlayer from 'react-audio-player';
+import BottomNavSelection from '../BottomNavSelection/BottomNavSelection';
 
 class SelectionView extends Component {
   render() {
@@ -10,20 +12,22 @@ class SelectionView extends Component {
         <div className="InternalHeader">
           <InternalHeader />
         </div>
-        <div className="paintingSelection">
-          <img src={daddyLongLegs} alt="Daddy Long Lets Dali Painting" />
-        </div>
+        <div className="paintingSelection" />
         <div className="guideSection">
           <div className="audioPlay">
-            <i className="fa fa-play" aria-hidden="true" />
+            <ReactAudioPlayer src="my_audio_file.ogg" controls />
           </div>
           <p>
-            Daddy Longlegs of the Evening - Hope! (Araignée du soir, espoir) - 1940. (Including: soft aeroplane, vomited
-            by a cannon, ants, victory born of a broken wing, violoncello in white mastic, and an angel who weeps).
+            Daddy Longlegs of the Evening - Hope! (Araignée du soir, espoir) -
+            1940. (Including: soft aeroplane, vomited by a cannon, ants, victory
+            born of a broken wing, violoncello in white mastic, and an angel who
+            weeps).
           </p>
           <i className="fa fa-arrow-down" aria-hidden="true" />
-          <i className="fa fa-arrow-down" aria-hidden="true" />
         </div>
+        <footer>
+          <BottomNavSelection />
+        </footer>
       </div>
     );
   }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import '../IndexHeader/IndexHeader.css';
-// import head from './daliHead.svg'
 
 class IndexHeader extends Component {
   render() {

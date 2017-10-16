@@ -11,18 +11,27 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: .2em .8em;
-  background-color: #EEEEEF;
+  padding: 0.4em 1em;
+  background-color: #eeeeef;
+  height: 35vh;
+}
+
+.paintingSelection {
+  padding: 0;
+  height: 280px;
+  background-image: url('../../assets/daddyLongLegs.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .audioPlay {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #F9F9FA;
+  background-color: #f9f9fa;
   border: 1px solid #4d4d4d;
   border-radius: 5px;
-  padding: .5em .5em;
+  padding: 0.5em 0.5em;
   margin: 1em;
 }
 
@@ -33,4 +42,7 @@ p {
 
 .fa-play {
   color: #4d4d4d;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 }
