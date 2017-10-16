@@ -11,6 +11,8 @@ p {
   align-items: center;
   background-color: #f6f6f6;
   height: 72px;
+  position: fixed;
+  width: 100%;
 }
 
 .bottomNav {
@@ -33,4 +35,13 @@ p {
 .guideIcon {
   width: 30px;
   height: 30px;
+}
+
+@media (min-width: 520px) {
+  .footer {
+    height: 72px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
 }

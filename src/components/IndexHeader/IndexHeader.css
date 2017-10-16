@@ -8,7 +8,8 @@
   justify-content: space-between;
   background-color: #fefefd;
 }
-.IndexHeader .fa-cog {
+.IndexHeader .fa-cog,
+.fa-arrow-left {
   margin-left: 0.3em;
   color: #4d4d4d;
 }
@@ -31,7 +32,8 @@
   }
 
   .IndexHeader nav i,
-  .fa-cog {
+  .fa-cog,
+  .fa-arrow-left {
     margin-top: 2em;
   }
 }
