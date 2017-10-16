@@ -1,5 +1,6 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 @import './normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Signika');
 
 body {
   margin: 0;
@@ -10,4 +11,9 @@ body {
 
 a:visited {
   color: #000000;
+}
+
+a,
+span {
+  text-decoration: none;
 }
