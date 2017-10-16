@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './SelectionView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
+import ReactAudioPlayer from 'react-audio-player';
 
 class SelectionView extends Component {
   render() {
@@ -10,20 +11,29 @@ class SelectionView extends Component {
         <div className="InternalHeader">
           <InternalHeader />
         </div>
-        <div className="paintingSelection">
-          <img src={daddyLongLegs} alt="Daddy Long Lets Dali Painting" />
-        </div>
+        <div className="paintingSelection" />
         <div className="guideSection">
           <div className="audioPlay">
-            <i class="fa fa-play" aria-hidden="true" />
+            <ReactAudioPlayer src="my_audio_file.ogg" controls />
           </div>
           <p>
-            Daddy Longlegs of the Evening - Hope! (Araignée du soir, espoir) - 1940. (Including: soft aeroplane, vomited
-            by a cannon, ants, victory born of a broken wing, violoncello in white mastic, and an angel who weeps).
+            Daddy Longlegs of the Evening - Hope! (Araignée du soir, espoir) -
+            1940. (Including: soft aeroplane, vomited by a cannon, ants, victory
+            born of a broken wing, violoncello in white mastic, and an angel who
+            weeps).
           </p>
           <i className="fa fa-arrow-down" aria-hidden="true" />
-          <i class="fa fa-arrow-down" aria-hidden="true" />
         </div>
+        <footer>
+          <div className="bottomNav">
+            <i class="fa fa-picture-o" aria-hidden="true" />
+            <p>Gallery</p>
+          </div>
+          <div className="bottomNav">
+            <i class="fa fa-university" aria-hidden="true" />
+            <p>History</p>
+          </div>
+        </footer>
       </div>
     );
   }

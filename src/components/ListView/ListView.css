@@ -19,7 +19,7 @@ footer p {
   display: flex;
   flex-direction: column;
   background-color: #d3d2d3;
-  height: 75vh;
+  height: 80vh;
 }
 
 .selection {
@@ -48,7 +48,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: #f6f6f6;
-  padding: 1.5em 0;
+  height: 72px;
 }
 
 .bottomNav {
