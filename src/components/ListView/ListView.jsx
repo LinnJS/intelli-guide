@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import style from './ListView.css';
-import InternalHeader from '../InternalHeader/InternalHeader';
+import './ListView.css';
+import ListHeader from './ListHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
 import BottomNavList from './BottomNavList/BottomNavList';
 
@@ -42,7 +42,7 @@ class ListView extends Component {
     });
     return (
       <div className="ListView">
-        <InternalHeader />
+        <ListHeader />
         <div className="selectionContainer">{items}</div>
         {/* <BottomNavList /> */}
       </div>

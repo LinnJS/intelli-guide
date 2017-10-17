@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './SelectionView.css';
-import InternalHeader from '../InternalHeader/InternalHeader';
+import SelectionHeader from './SelectionHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
 import ReactAudioPlayer from 'react-audio-player';
 import BottomNavSelection from './BottomNavSelection/BottomNavSelection';
@@ -29,7 +29,7 @@ class SelectionView extends Component {
     if (this.state.item) {
       return (
         <div className="SelectionView">
-          <InternalHeader />
+          <SelectionHeader />
           <img src={this.state.item.url} alt="" />
           <div className="guideSection">
             <h3>{this.state.item.title}</h3>
