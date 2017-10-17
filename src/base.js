@@ -27,7 +27,7 @@ export const fetchPermanent = () => {
   });
 };
 
-// fetchPermanent();
+fetchPermanent();
 
 // database
 //   .ref()
@@ -69,7 +69,7 @@ export const fetchPermanent = () => {
 //         accessionIDNumber: 2000.6,
 //         creditLine: 'Gift of A. Reynolds & Eleanor Morse',
 //         onView: true,
-//         history: [
+//         exhibitionHistory: [
 //           '1941, Chicago, The Arts Club of Chicago, “Salvador Dali”',
 //           '1941, New York, Julien Levy Gallery, “Salvador Dalí”',
 //           '1941, Los Angeles, Dalzell Hatfield Galleries, “Salvador Dalí”',

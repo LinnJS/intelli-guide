@@ -25,6 +25,8 @@ class ListView extends Component {
   }
 
   render() {
+    console.log('props', this.state);
+    let search = this.props;
     const items = this.state.items.map((item, i) => {
       return (
         <Link to={`/item${this.props.match.path}/${i}`} key={i}>
