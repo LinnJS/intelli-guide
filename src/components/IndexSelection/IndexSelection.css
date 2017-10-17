@@ -1,14 +1,15 @@
 .IndexSelection {
   overflow: hidden;
   height: 100vh;
+  background-color: #dbdbdb;
   /*position: fixed;*/
 }
 
-section {
+/*section {
   height: 12em;
   width: 42%;
   margin: 0.75em 0.5em;
-}
+}*/
 
 footer img {
   width: 101%;
@@ -22,21 +23,40 @@ footer img {
   justify-content: center;
   align-items: center;
   height: 86vh;
-  padding: 1.5em 0 1.24em 0;
+  padding: 10% 0 4% 0;
 }
 
 .permanent {
   background-image: url('../../assets/toreador.png');
   background-size: cover;
+  /*Temp Adjusment for Demo*/
+  height: 20em;
+  width: 70%;
+  margin: 0.75em 0.5em;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.5s, opacity 0.3s;
+}
+
+.permanent:hover {
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .permanent .indexText {
   background-image: url('../../assets/itemFooterLeft.svg');
   background-repeat: no-repeat;
   background-position: bottom;
-  /*max-height: 70px;*/
   background-size: 110%;
   text-align: right;
+}
+
+.permanent .indexText > span {
+  font-size: 16px;
+}
+
+.permanent .indexText > h3 {
+  font-size: 20px;
 }
 
 .architecture {

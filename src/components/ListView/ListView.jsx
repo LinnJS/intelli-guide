@@ -42,7 +42,7 @@ class ListView extends Component {
       <div className="ListView">
         <InternalHeader />
         <div className="selectionContainer">{items}</div>
-        <BottomNavList />
+        {/* <BottomNavList /> */}
       </div>
     );
   }

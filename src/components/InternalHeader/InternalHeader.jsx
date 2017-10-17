@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { BrowserHistory } from 'react-router';
 
 import '../IndexHeader/IndexHeader.css';
 
@@ -7,7 +8,7 @@ class IndexHeader extends Component {
   render() {
     return (
       <div className="IndexHeader">
-        <Link to="/">
+        <Link to="/permanent">
           <i className="fa fa-arrow-left fa-lg" aria-hidden="true" />
         </Link>
         <nav>

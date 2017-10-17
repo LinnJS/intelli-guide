@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './IndexHeader.css';
-// import head from './daliHead.svg'
+// import head from './daliHead.svg';
 
 class IndexHeader extends Component {
   showSettings(event) {

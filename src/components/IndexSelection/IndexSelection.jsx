@@ -20,7 +20,7 @@ class IndexSelection extends Component {
               </div>
             </Link>
           </section>
-          <section className="expedition">
+          {/* <section className="expedition">
             <Link to="/expedition">
               <div className="indexText">
                 <span>expedition tour</span>
@@ -43,7 +43,7 @@ class IndexSelection extends Component {
                 <h3>family tours</h3>
               </div>
             </Link>
-          </section>
+          </section> */}
         </div>
         <footer>
           <img src={daliFooter} alt="Dali Footer Branding" />

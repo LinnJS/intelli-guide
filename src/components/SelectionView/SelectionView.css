@@ -9,7 +9,7 @@ p {
   justify-content: space-around;
   padding: 0.4em 1em;
   background-color: #eeeeef;
-  padding-bottom: 72px;
+  /*padding-bottom: 72px;*/
 }
 
 .SelectionView > img {

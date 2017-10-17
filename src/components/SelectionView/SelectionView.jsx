@@ -37,8 +37,12 @@ class SelectionView extends Component {
               <ReactAudioPlayer src="my_audio_file.ogg" controls />
             </div>
             {this.state.item.description.map((p, i) => <p key={i}>{p}</p>)}
+            <div className="history">
+              <h4>Exhibition History</h4>
+              {this.state.item.exhibitionHistory.map((p, i) => <p key={i}>{p}</p>)}
+            </div>
           </div>
-          <BottomNavSelection />
+          {/* <BottomNavSelection /> */}
         </div>
       );
     } else {
