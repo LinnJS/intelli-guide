@@ -38,7 +38,7 @@ database
       {
         title: 'View of Cadaqués with Shadow of Mount Pani',
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1980.7_thumbnail.jpg',
-        audio: 'https://jslinn727.github.io/intelli-guide/front-desk-bells-daniel_simon%20(1).wav',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/viewOfCadaques2.m4a',
         maker: 'Salvador Dalí',
         dateMade: 1917,
         placeMade: 'Spain',
@@ -62,6 +62,7 @@ database
       {
         title: 'Daddy Longlegs of the Evening-Hope!',
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.6_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/daddyLongLegs1.m4a',
         maker: 'Salvador Dalí',
         dateMade: 1940,
         placeMade: 'Unied States',
@@ -95,6 +96,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1983.1_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/selfPortrait3.m4a',
         title: 'Self-Portrait',
         maker: 'Salvador Dalí',
         dateMade: '1921',
@@ -136,6 +138,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1983.2_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/cadaques4.m4a/',
         title: 'Cadaqués',
         maker: 'Salvador Dalí',
         dateMade: '1923',
@@ -168,6 +171,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/1983.3_Portrait of My Sister_after conservation_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/portraitOfMySister5.m4a/',
         title: 'Portrait of My Sister',
         maker: 'Salvador Dalí',
         dateMade: '1923',
@@ -191,6 +195,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1981.1_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theBasketOfBread.m4a/',
         title: 'The Basket of Bread',
         maker: 'Salvador Dalí',
         dateMade: '1926',
@@ -236,6 +241,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/1981.2_Girl-with-Curls_web_before conservation.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/girlWithCurls6.m4a/',
         title: 'Girl with Curls',
         maker: 'Salvador Dalí',
         dateMade: '1926',
@@ -264,6 +270,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1995.1_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/portraitOfMyDeadBrother7.m4a',
         title: 'Portrait of My Dead Brother',
         maker: 'Salvador Dalí',
         dateMade: '1963',
@@ -315,6 +322,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/1991.1_Apparatus-and-Hand_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/apparatusAndHand8.m4a',
         title: 'Apparatus and Hand',
         maker: 'Salvador Dalí',
         dateMade: '1927',
@@ -361,6 +369,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2004.1_Gala Contemplating_after conservation_2016_web_web .jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/lincon8.m4a',
         title:
           'Gala Contemplating the Mediterranean Sea which at Twenty Meters Becomes the Portrait of Abraham Lincoln-Homage to Rothko (Second Version)',
         maker: 'Salvador Dalí',
@@ -388,6 +397,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1991.2_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theAverageBureaucrat9.m4a',
         title: 'The Average Bureaucrat',
         maker: 'Salvador Dalí',
         dateMade: '1030',
@@ -418,6 +428,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.21_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theFirstDaysOfSpring10.m4a/',
         title: 'The First Days of Spring',
         maker: 'Salvador Dalí',
         dateMade: '1929',
@@ -460,6 +471,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.13_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/eggsOnThePlate11.m4a',
         title: 'Oeufs sur le Plat sans le Plat',
         maker: 'Salvador Dalí',
         dateMade: '1932',
@@ -495,6 +507,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2000.5_Arch-Rem_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/ArcheolgicalRem12.m4a',
         title: "Archeological Reminiscence of Millet's Angelus",
         maker: 'Salvador Dalí',
         dateMade: '1933-35',
@@ -532,6 +545,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2007.29_Weaning_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/enchantedBeach13.m4a/',
         title: 'Enchanted Beach with Three Fluid Graces',
         maker: 'Salvador Dalí',
         dateMade: '1938',
@@ -572,6 +586,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2000.7_Enchanted-Beach_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theWeaning14.m4a/',
         title: 'The Weaning of Furniture-Nutrition',
         maker: 'Salvador Dalí',
         dateMade: '1934',
@@ -607,6 +622,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.19_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theDiscoveryOfAmerica15.m4a/',
         title: 'The Discovery of America by Christopher Columbus',
         otherTitle: 'The Dream of Christoper Columbus',
         maker: 'Salvador Dalí',
@@ -629,6 +645,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2000.22_Toreador_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theHallucinogenicToreador16.m4a/',
         title: 'The Hallucinogenic Toreador',
         maker: 'Salvador Dalí',
         dateMade: '1970',
@@ -653,6 +670,7 @@ database
       },
       {
         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.9_thumbnail.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/geopoliticusChild17.m4a/',
         title: 'Geopoliticus Child Watching the Birth of the New Man',
         maker: 'Salvador Dalí',
         dateMade: '1943',
@@ -683,6 +701,7 @@ database
       {
         url:
           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2000.14_Three-Ages_web.jpg',
+        audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/oldAgeAdolescence18.m4a',
         title: 'Old Age, Adolescence, Infancy (The Three Ages)',
         maker: 'Salvador Dalí',
         dateMade: '1940',
@@ -716,104 +735,6 @@ database
           '2010, Milan, Palazzo Reale, “Salvador Dalí, il sogno si avvicina(The Dream is Getting Closer)”',
         ],
       },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
-      {
-        url: 'http://archive.thedali.org',
-        title: '',
-        maker: 'Salvador Dalí',
-        dateMade: '',
-        placeMade: '',
-        materials: '',
-        dimensions: '',
-        accessionIDNumber: '',
-        creditLine: 'Gift of A. Reynolds & Eleanor Morse',
-        onView: true,
-        description: ['', '', ''],
-        exhibitionHistory: ['', '', '', '', '', '', ''],
-      },
     ],
     expedition: {},
     architecture: {},
@@ -828,3 +749,20 @@ database
   .catch(error => {
     console.log('This failed: ', error);
   });
+
+//
+// {
+//   url: 'http://archive.thedali.org',
+//   audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/',
+//   title: '',
+//   maker: 'Salvador Dalí',
+//   dateMade: '',
+//   placeMade: '',
+//   materials: '',
+//   dimensions: '',
+//   accessionIDNumber: '',
+//   creditLine: 'Gift of A. Reynolds & Eleanor Morse',
+//   onView: true,
+//   description: ['', '', ''],
+//   exhibitionHistory: ['', '', '', '', '', '', ''],
+// },
