@@ -2,6 +2,7 @@
   "name": "intelli-guide",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jslinn727.github.io/intelli-guide/",
   "dependencies": {
     "firebase": "^4.5.1",
     "gh-pages": "^1.0.0",

@@ -2,6 +2,11 @@
 @import './normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Signika');
 
+.App {
+  width: 1024px;
+  height: 1336px;
+}
+
 body {
   margin: 0;
   padding: 0;
