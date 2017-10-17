@@ -10,7 +10,6 @@ footer p {
   background-color: #d3d2d3;
   height: 80vh;
   padding: 3em 0;
-  border-bottom: 1em solid white;
 }
 
 .selection {
@@ -34,7 +33,15 @@ footer p {
   margin-left: 0.5em;
 }
 
-.item {
-  width: 120px;
-  height: 80px;
+@media (min-width: 520px) {
+  .selection img {
+    width: 14%;
+    height: 100%;
+  }
+  .details {
+    font-size: 18px;
+  }
+  .selectionContainer {
+    padding: 5em 0;
+  }
 }
