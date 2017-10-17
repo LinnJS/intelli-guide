@@ -34,7 +34,7 @@ class SelectionView extends Component {
           <div className="guideSection">
             <h3>{this.state.item.title}</h3>
             <div className="audioPlay">
-              <ReactAudioPlayer src="my_audio_file.ogg" controls />
+              <ReactAudioPlayer src={this.state.item.audio} controls />
             </div>
             {this.state.item.description.map((p, i) => <p key={i}>{p}</p>)}
             <div className="history">
