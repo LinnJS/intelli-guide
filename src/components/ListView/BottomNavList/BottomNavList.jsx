@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './BottomNavList.css';
-import guideIcon from '../../assets/guide.png';
+import guideIcon from '../../../assets/guide.png';
 
 class BottomNavList extends Component {
   render() {

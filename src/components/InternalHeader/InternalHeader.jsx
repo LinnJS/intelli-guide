@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { BrowserHistory } from 'react-router';
 
-import '../IndexHeader/IndexHeader.css';
+import '../Index/IndexHeader/IndexHeader.css';
 
 class IndexHeader extends Component {
   render() {

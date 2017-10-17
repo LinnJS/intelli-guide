@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import style from './ListView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
-import BottomNavList from '../BottomNavList/BottomNavList';
+import BottomNavList from './BottomNavList/BottomNavList';
 
 import { database } from '../../base';
 

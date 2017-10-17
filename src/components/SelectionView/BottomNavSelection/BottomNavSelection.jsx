@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './BottomNavSelection.css';
-import guideIcon from '../../assets/guide.png';
+import guideIcon from '../../../assets/guide.png';
 
 class BottomNavSelection extends Component {
   render() {

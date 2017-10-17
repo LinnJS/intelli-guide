@@ -3,7 +3,7 @@ import styles from './SelectionView.css';
 import InternalHeader from '../InternalHeader/InternalHeader';
 import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
 import ReactAudioPlayer from 'react-audio-player';
-import BottomNavSelection from '../BottomNavSelection/BottomNavSelection';
+import BottomNavSelection from './BottomNavSelection/BottomNavSelection';
 
 import { database } from '../../base';
 
