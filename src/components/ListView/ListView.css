@@ -35,7 +35,8 @@ footer p {
 
 @media (min-width: 520px) {
   .selection {
-    margin: 0.3em;
+    margin: 0.5em;
+    padding: 1.5em;
   }
   .selection img {
     width: 14%;
