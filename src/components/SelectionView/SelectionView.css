@@ -12,6 +12,10 @@ p {
   /*padding-bottom: 72px;*/
 }
 
+.guideSection h4 {
+  margin-top: 2em;
+}
+
 .SelectionView > img {
   width: 100%;
   z-index: -1;

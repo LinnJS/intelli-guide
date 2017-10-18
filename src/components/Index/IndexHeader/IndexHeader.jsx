@@ -13,14 +13,14 @@ class IndexHeader extends Component {
       <div className="IndexHeader">
         <div>
           {/* <Menu /> */}
-          <i className="fa fa-cog fa-lg" aria-hidden="true" />
+          {/* <i className="fa fa-cog fa-lg" aria-hidden="true" /> */}
         </div>
         <a onClick={this.showSettings} className="menu-item--small" href="" />
         <nav>
-          <i className="fa fa-language fa-lg " aria-hidden="true" />
+          {/* <i className="fa fa-language fa-lg " aria-hidden="true" />
           <i className="fa fa-star-o fa-lg" aria-hidden="true" />
           <i className="fa fa-map-o fa-lg" aria-hidden="true" />
-          <i className="fa fa-search fa-lg" aria-hidden="true" />
+          <i className="fa fa-search fa-lg" aria-hidden="true" /> */}
         </nav>
       </div>
     );

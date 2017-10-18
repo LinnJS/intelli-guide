@@ -12,10 +12,10 @@ class ListHeader extends Component {
           <i className="fa fa-arrow-left fa-lg" aria-hidden="true" />
         </Link>
         <nav>
-          <i className="fa fa-language fa-lg " aria-hidden="true" />
+          {/* <i className="fa fa-language fa-lg " aria-hidden="true" />
           <i className="fa fa-star-o fa-lg" aria-hidden="true" />
           <i className="fa fa-map-o fa-lg" aria-hidden="true" />
-          <i className="fa fa-search fa-lg" aria-hidden="true" />
+          <i className="fa fa-search fa-lg" aria-hidden="true" /> */}
         </nav>
       </div>
     );

@@ -7,7 +7,7 @@ footer p {
 .selectionContainer {
   display: flex;
   flex-direction: column;
-  background-color: #d3d2d3;
+  /*background-color: #d3d2d3;*/
   height: 80vh;
   padding: 3em 0;
 }
@@ -34,6 +34,9 @@ footer p {
 }
 
 @media (min-width: 520px) {
+  .selection {
+    margin: 0.3em;
+  }
   .selection img {
     width: 14%;
     height: 100%;
