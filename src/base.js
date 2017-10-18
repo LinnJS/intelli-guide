@@ -28,7 +28,7 @@ export const fetchPermanent = () => {
 };
 
 // fetchPermanent();
-//
+
 // database
 //   .ref()
 //   .set({
@@ -138,7 +138,7 @@ export const fetchPermanent = () => {
 //       },
 //       {
 //         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1983.2_thumbnail.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/cadaques4.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/cadaques4.m4a',
 //         title: 'Cadaqués',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1923',
@@ -171,7 +171,7 @@ export const fetchPermanent = () => {
 //       {
 //         url:
 //           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/1983.3_Portrait of My Sister_after conservation_web.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/daliRecordings/portraitOfMySister5.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/daliRecordings/portraitOfMySister5.m4a',
 //         title: 'Portrait of My Sister',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1923',
@@ -195,7 +195,7 @@ export const fetchPermanent = () => {
 //       },
 //       {
 //         url: 'http://archive.thedali.org/MWEBimages/Collection Images/1981.1_thumbnail.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theBasketOfBread.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theBasketOfBread.m4a',
 //         title: 'The Basket of Bread',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1926',
@@ -241,7 +241,7 @@ export const fetchPermanent = () => {
 //       {
 //         url:
 //           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/1981.2_Girl-with-Curls_web_before conservation.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/girlWithCurls6.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/girlWithCurls6.m4a',
 //         title: 'Girl with Curls',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1926',
@@ -428,7 +428,7 @@ export const fetchPermanent = () => {
 //       },
 //       {
 //         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.21_thumbnail.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theFirstDaysOfSpring10.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theFirstDaysOfSpring10.m4a',
 //         title: 'The First Days of Spring',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1929',
@@ -545,7 +545,7 @@ export const fetchPermanent = () => {
 //       {
 //         url:
 //           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2007.29_Weaning_web.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/enchantedBeach13.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/enchantedBeach13.m4a',
 //         title: 'Enchanted Beach with Three Fluid Graces',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1938',
@@ -586,7 +586,7 @@ export const fetchPermanent = () => {
 //       {
 //         url:
 //           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2000.7_Enchanted-Beach_web.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theWeaning14.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theWeaning14.m4a',
 //         title: 'The Weaning of Furniture-Nutrition',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1934',
@@ -622,7 +622,7 @@ export const fetchPermanent = () => {
 //       },
 //       {
 //         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.19_thumbnail.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theDiscoveryOfAmerica15.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theDiscoveryOfAmerica15.m4a',
 //         title: 'The Discovery of America by Christopher Columbus',
 //         otherTitle: 'The Dream of Christoper Columbus',
 //         maker: 'Salvador Dalí',
@@ -645,7 +645,7 @@ export const fetchPermanent = () => {
 //       {
 //         url:
 //           'http://archive.thedali.org/MWEBimages/Collection Images/OILS_images saved for Web/2000.22_Toreador_web.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theHallucinogenicToreador16.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/theHallucinogenicToreador16.m4a',
 //         title: 'The Hallucinogenic Toreador',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1970',
@@ -670,7 +670,7 @@ export const fetchPermanent = () => {
 //       },
 //       {
 //         url: 'http://archive.thedali.org/MWEBimages/Collection Images/2000.9_thumbnail.jpg',
-//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/geopoliticusChild17.m4a/',
+//         audio: 'https://jslinn727.github.io/intelli-guide/daliRecordings/geopoliticusChild17.m4a',
 //         title: 'Geopoliticus Child Watching the Birth of the New Man',
 //         maker: 'Salvador Dalí',
 //         dateMade: '1943',
