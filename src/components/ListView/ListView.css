@@ -8,7 +8,7 @@ footer p {
   display: flex;
   flex-direction: column;
   /*background-color: #d3d2d3;*/
-  height: 80vh;
+  /*height: 80vh;*/
   padding: 3em 0;
 }
 
@@ -35,18 +35,18 @@ footer p {
 
 @media (min-width: 520px) {
   .selection {
-    margin: 1em 0;
-    padding: 1.5em;
+    margin: 0.5em 0;
+    padding: 1em;
     height: 100px;
   }
   .selection img {
-    width: 14%;
+    width: 9em;
     height: 7em;
   }
   .details {
     font-size: 18px;
   }
   .selectionContainer {
-    padding: 5em 0;
+    padding: 5em 0 0 0;
   }
 }
