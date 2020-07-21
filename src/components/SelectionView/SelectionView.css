@@ -9,7 +9,6 @@ p {
   justify-content: space-around;
   padding: 0.4em 1em;
   background-color: #eeeeef;
-  /*padding-bottom: 72px;*/
 }
 
 .guideSection h4 {
@@ -24,7 +23,7 @@ p {
 .paintingSelection {
   padding: 0;
   height: 280px;
-  background-image: url('../../assets/daddyLongLegs.jpg');
+  background-image: url("../../assets/daddyLongLegs.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

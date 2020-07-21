@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import './IndexHeader.css';
+import "./IndexHeader.css";
 // import head from './daliHead.svg';
 
 class IndexHeader extends Component {

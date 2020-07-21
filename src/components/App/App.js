@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Switch, Link, Route, BrowserHistory } from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter, Switch, Link, Route, BrowserHistory } from "react-router-dom";
 
-import './App.css';
-import Index from '../Index/Index';
-import ListView from '../ListView/ListView';
-import SelectionView from '../SelectionView/SelectionView';
+import Index from "../Index/Index";
+import ListView from "../ListView/ListView";
+import SelectionView from "../SelectionView/SelectionView";
 
 class App extends Component {
   render() {

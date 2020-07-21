@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import './ListView.css';
-import ListHeader from './ListHeader';
-import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
-import BottomNavList from './BottomNavList/BottomNavList';
+import "./ListView.css";
+import ListHeader from "./ListHeader";
 
-import { database } from '../../base';
+import { database } from "../../base";
 
 class ListView extends Component {
   state = {
@@ -16,8 +14,8 @@ class ListView extends Component {
   componentDidMount() {
     database
       .ref(this.props.match.path)
-      .once('value')
-      .then(data => {
+      .once("value")
+      .then((data) => {
         this.setState({
           items: data.val(),
         });
@@ -25,7 +23,7 @@ class ListView extends Component {
   }
 
   render() {
-    console.log('props', this.state);
+    console.log("props", this.state);
     let search = this.props;
     const items = this.state.items.map((item, i) => {
       return (
@@ -44,7 +42,6 @@ class ListView extends Component {
       <div className="ListView">
         <ListHeader />
         <div className="selectionContainer">{items}</div>
-        {/* <BottomNavList /> */}
       </div>
     );
   }

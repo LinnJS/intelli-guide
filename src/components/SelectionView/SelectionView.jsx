@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import styles from './SelectionView.css';
-import SelectionHeader from './SelectionHeader';
-import daddyLongLegs from '../../assets/daddyLongLegs.jpg';
-import ReactAudioPlayer from 'react-audio-player';
-import BottomNavSelection from './BottomNavSelection/BottomNavSelection';
+import React, { Component } from "react";
+import styles from "./SelectionView.css";
+import SelectionHeader from "./SelectionHeader";
+import daddyLongLegs from "../../assets/daddyLongLegs.jpg";
+import ReactAudioPlayer from "react-audio-player";
+import BottomNavSelection from "./BottomNavSelection/BottomNavSelection";
 
-import { database } from '../../base';
+import { database } from "../../base";
 
 class SelectionView extends Component {
   state = {
@@ -13,12 +13,12 @@ class SelectionView extends Component {
   };
 
   componentDidMount() {
-    const path = this.props.location.pathname.replace('/item', '');
+    const path = this.props.location.pathname.replace("/item", "");
     console.log(path);
     database
       .ref(path)
-      .once('value')
-      .then(data => {
+      .once("value")
+      .then((data) => {
         this.setState({
           item: data.val(),
         });
@@ -37,13 +37,16 @@ class SelectionView extends Component {
               <ReactAudioPlayer src={this.state.item.audio} controls />
             </div>
             <h4>Description</h4>
-            {this.state.item.description.map((p, i) => <p key={i}>{p}</p>)}
+            {this.state.item.description.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
             <div className="history">
               <h4>Exhibition History</h4>
-              {this.state.item.exhibitionHistory.map((p, i) => <p key={i}>{p}</p>)}
+              {this.state.item.exhibitionHistory.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
             </div>
           </div>
-          {/* <BottomNavSelection /> */}
         </div>
       );
     } else {

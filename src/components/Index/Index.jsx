@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import styles from './Index.css';
-import IndexHeader from './IndexHeader/IndexHeader';
-import daliFooter from '../../assets/daliFooter.svg';
-import '../ListView/ListView';
+import styles from "./Index.css";
+import IndexHeader from "./IndexHeader/IndexHeader";
+import daliFooter from "../../assets/daliFooter.svg";
+import "../ListView/ListView";
 
 class Index extends Component {
   render() {

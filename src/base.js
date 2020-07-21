@@ -1,5 +1,5 @@
-import * as firebase from 'firebase';
-import Rebase from 're-base';
+import * as firebase from "firebase";
+import Rebase from "re-base";
 
 // const config = {
 //   apiKey: process.env.REACT_APP_FIREBASE_KEY,
@@ -11,18 +11,18 @@ import Rebase from 're-base';
 // };
 
 const config = {
-  apiKey: 'AIzaSyCIHqdl2GqIMEoXn-0oLR5Hm00_eZE1zts',
-  authDomain: 'intelli-guide.firebaseapp.com',
-  databaseURL: 'https://intelli-guide.firebaseio.com',
-  projectId: 'intelli-guide',
-  storageBucket: 'intelli-guide.appspot.com',
-  messagingSenderId: '846727200470',
+  apiKey: "AIzaSyCIHqdl2GqIMEoXn-0oLR5Hm00_eZE1zts",
+  authDomain: "intelli-guide.firebaseapp.com",
+  databaseURL: "https://intelli-guide.firebaseio.com",
+  projectId: "intelli-guide",
+  storageBucket: "intelli-guide.appspot.com",
+  messagingSenderId: "846727200470",
 };
 
 firebase.initializeApp(config);
 export const database = firebase.database();
 export const fetchPermanent = () => {
-  database.ref('permanent').on('value', snapshot => {
+  database.ref("permanent").on("value", (snapshot) => {
     console.log(snapshot.key, snapshot.val());
   });
 };
